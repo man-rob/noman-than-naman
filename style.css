@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero {
+    background-image: url('https://assets.goal.com/images/v3/blt2aaca933046f8b00/Cristiano%20Ronaldo%20Portugal%202024%20(4).jpg');
+    height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section p, section ul {
+    line-height: 1.6;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+}
